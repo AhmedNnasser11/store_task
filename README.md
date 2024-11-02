@@ -3,6 +3,14 @@
 
 This project is a Next.js application, designed as an online store with structured components, pages, and configurations.
 
+## Live Demo
+
+Check out the live demo here: [Live Demo](https://store-task-ten.vercel.app/home)
+
+## Repository
+
+You can find the source code at the following GitHub repository: [GitHub Repository](https://github.com/AhmedNnasser11/store_task.git)
+
 ## Prerequisites
 
 - Node.js (>= 12.x) and npm should be installed on your system.
@@ -12,7 +20,7 @@ This project is a Next.js application, designed as an online store with structur
 1. **Clone the repository**:
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/AhmedNnasser11/store_task.git
    ```
 
 2. **Navigate to the project directory**:
