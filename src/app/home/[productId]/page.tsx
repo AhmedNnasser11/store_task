@@ -7,7 +7,6 @@ type Props = {
   searchParams?: { [key: string]: string | string[] | undefined };
 };
 
-// Metadata generation function
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = await getProduct(params.productId);
 
@@ -16,8 +15,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: product.description,
   };
 }
-
-// Page component
 async function Page({ params }: Props) {
   const product = await getProduct(params.productId);
   return <DetailesMainContent product={product} />;
