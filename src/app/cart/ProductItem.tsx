@@ -16,7 +16,7 @@ const ProductItem = ({
   return (
     <div
       key={product.id}
-      className="flex items-center justify-between border-b pb-4">
+      className="flex flex-col sm:flex-row items-center justify-between border-b pb-4">
       {/* Product Info */}
       <div className="flex items-center">
         <CustomImage
@@ -33,7 +33,7 @@ const ProductItem = ({
       </div>
 
       {/* Quantity Controls and Remove Button */}
-      <div className="flex items-center">
+      <div className="flex items-center text-black">
         <button
           onClick={() => updateQuantity(product.id, quantity - 1)}
           className="p-2 bg-gray-100 rounded hover:bg-gray-200"

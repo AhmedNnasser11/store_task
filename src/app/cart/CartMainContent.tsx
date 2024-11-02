@@ -35,7 +35,7 @@ const CartMainContent = () => {
 
           {/* Total Price and Checkout Button */}
           <div className="mt-6 text-right">
-            <h2 className="text-xl font-bold">
+            <h2 className="text-xl font-bold text-black">
               Total: ${totalPrice.toFixed(2)}
             </h2>
             <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
